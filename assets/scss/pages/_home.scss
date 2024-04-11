@@ -1,0 +1,577 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+
+#fashionSaleBox {
+    min-height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-image:url('../../../assets/IMAGE/h1_hero1.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .container {
+        min-height: 500px;
+        width: 85%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        .writeBox {
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            h5 {
+                font-size: 45px;
+                font-weight:300;
+                color: red;
+                font-family: "Clicker Script", cursive;
+            }
+            h3 {
+                font-size: 40px;
+                display: flex;
+                gap: 10px;
+                font-optical-sizing: auto;
+                font-weight: 500;
+                font-style: normal;
+                font-family: "Jost", sans-serif;
+            }
+            button {
+                padding:15px 40px;
+                background-color: black;
+                color: white;
+                border: 1px solid black;
+            }
+            .fashionSaleLorem {
+                width: 75%;
+                align-self: center;
+                text-align: center;
+            }
+        }
+
+        
+    }
+}
+
+#cinsFashionBox {
+    min-height:700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    .cinsFashionContainer {
+        height: 300px;
+        width: 85%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .imgMen {
+            background-image: url(../../../assets/IMAGE/items1.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .imgWomen {
+            background-image: url(../../../assets/IMAGE/items2.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .imgBaby {
+            background-image: url(../../../assets/IMAGE/items3.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .imgBox {
+            height: 100%;
+            width: 30%;
+            display: flex;
+            align-items: flex-end;
+            .writeContainer {
+                height: 30%;
+                width: 100%;
+                background-color: rgba(2, 2, 2, 0.2);
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 10%;
+                h3 {
+                    font-size: 24px;
+                    color: white;
+                }
+                p {
+                    text-decoration: underline;
+                    font-size: 19px;
+                    display: none;
+                    color: #CEB27A;
+                }
+            }
+            .writeContainer:hover p {
+                display: block;
+                transform: rotateY(0);
+                transition: 1.5s;
+            }
+        }
+    }
+}
+
+#trendingThisWeekBox {
+   height: auto;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    .trendingThisWeekcontainer {
+      
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        .writeBox {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            h1 {
+                font-size: 34px;
+                margin-top: 5px;
+                padding: 10px;
+                font-weight: 500;
+            }
+            .rightMenuBox {
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+                gap: 10px;
+                font-size: 16px Jost ,sans-serif;
+                .menBox {
+                    border-bottom: 3px solid red;
+                }
+                p {
+                    padding:20px 5px;
+                    cursor: pointer;
+                    &:hover {
+                        border-bottom: 3px solid red;
+                    }
+                }
+            }
+        }
+        .trendingThisWeekImgBox {
+          height: ;
+            width: 98%;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            .fourImgContainer {
+                height: 50vh;
+                width: 22.5%;
+                .properties-caption {
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    height: 70%;
+                    width: 100%;
+                }
+                .headerWriteBox {
+                    height: 15%;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    a {
+                        text-decoration: none;
+                        color: #2D2A25;
+                        font-weight: 400;
+                        font-size: 16px;
+                        font-family:Jost, sans-serif;
+                        &:hover {
+                            color: red;
+                        }
+                    }
+                }
+                .footerWriteBox {
+                    height: 15%;
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    gap: 10px;
+                    span {
+                        font-size: 1em;
+                        font-weight: 500;
+                        color: #74706b;
+                        line-height: 24px;
+                    }
+                    .hundredTwentyBox {
+                        font-weight: 500;
+                        line-height: 24px;
+                        color: #cebd9c;
+                        text-decoration: line-through;
+                    }
+                }
+            }
+            .imgOneBox {
+                background-image: url('../../../assets/IMAGE/latest1.jpg');
+            }
+            .imgTwoBox {
+                background-image: url('../../../assets/IMAGE/latest2.jpg');
+            }
+            .imgThreeBox {
+                background-image: url('../../../assets/IMAGE/latest3.jpg');
+            }
+            .imgFourBox {
+                background-image: url('../../../assets/IMAGE/latest4.jpg');
+            }
+        }
+    }
+}
+
+#customerTestimonialBox {
+    min-height: 50vh;
+    width: 100%;
+    background-color: #F3EAD8;
+    display: flex;
+    justify-content: center;
+    .customerTestimonialContainer {
+        width: 85%;
+        min-height: 30vh;
+        display: flex;
+        justify-content: center;
+        .testimonial-top-write {
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            h2 {
+                font-size: 34px;
+                font-weight: 500;
+            }
+            p {
+                font-size: 22px;
+                font-weight: 400;
+                text-align: center;
+                width: 75%;
+            }
+        }
+        .testimonial-founder {
+            display: flex;
+            flex-direction: row;
+            .founder-text {
+                span {
+                    font-size: 15px;
+                    font-weight: 500;
+                    color: #292621;
+                    margin-left: 10px;
+                    line-height: 21px;
+                }
+                p {
+                    font-size: 16px;
+                    font-weight: 500;
+                    color: #74706b;
+                    width: 150px;
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+}
+
+#youMayLikeBox {
+    min-height: 75vh;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    .youMayLikeContainer {
+        height: 100%;
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+        h1 {
+            font-size: 30px;
+            font-weight: 500;
+            color: #292621;
+            margin: auto;
+            line-height: 42px;
+        }
+        .youMayLikeImgBox {
+            min-height: 50vh;
+            width: 98%;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            .fourImgContainer {
+                height: 50vh;
+                width: 22.5%;
+                .properties-caption {
+                    background-size: cover;
+                    height: 70%;
+                    width: 100%;
+                }
+                .headerWriteBox {
+                    height: 15%;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    a {
+                        text-decoration: none;
+                        color: #2D2A25;
+                        font-weight: 400;
+                        font-size: 16px;
+                        font-family:Jost, sans-serif;
+                        &:hover {
+                            color: red;
+                        }
+                    }
+                }
+                .footerWriteBox {
+                    height: 15%;
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    gap: 10px;
+                    span {
+                        font-size: 1em;
+                        font-weight: 500;
+                        color: #74706b;
+                        line-height: 24px;
+                    }
+                    .hundredTwentyBox {
+                        font-weight: 500;
+                        line-height: 24px;
+                        color: #cebd9c;
+                        text-decoration: line-through;
+                    }
+                }
+            }
+            .img-one-box {
+                background-image: url('../../../assets/IMAGE/latest5.jpg');
+            }
+            .img-two-box {
+                background-image: url('../../../assets/IMAGE/latest6.jpg');
+            }
+            .img-three-box {
+                background-image: url('../../../assets/IMAGE/latest7.jpg');
+            }
+            .img-four-box {
+                background-image: url('../../../assets/IMAGE/latest8.jpg');
+            }
+        }
+    }
+}
+
+#latestNewsBox {
+    min-height: 90vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    .latestNewsContainer {
+        width: 85%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+        .lastNewBox {
+            display: flex;
+            justify-content: center;
+            h1 {
+                font-size: 30px;
+                font-weight: 500;
+                color: #292621;
+            }
+        }
+        .cardContainer {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            .cardBox {
+                height: 70vh;
+                width: 30%;
+                .cardImgBox {
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    height: 50%;
+                    width: 100%;
+                }
+                .cardWriteBox {
+                    height: 50%;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    span {
+                        font-size: 16px;
+                        font-weight: 400;
+                        color: #74706b;
+                        font-weight: 500;
+                    }
+                    a {
+                        text-decoration: none;
+                        font-weight: 500;
+                        font-size: 22px;
+                        color: #292621;
+                    }
+                    p {
+                        font-size: 16px;
+                        font-weight: 400;
+                        color: #74706b;
+                    }
+                    .red-btn {
+                        font-size: 16px;
+                        font-weight: 600;
+                        color: #292621;
+                        text-decoration: underline;
+                        transform: none;
+                    }
+                }
+        }
+            .oneBox {
+                background-image: url('../../../assets/IMAGE/blog1.jpg');
+            }
+            .twoBox {
+                background-image: url('../../../assets/IMAGE/blog2.jpg');
+            }
+            .threeBox {
+                background-image: url('../../../assets/IMAGE/blog3.jpg');
+            }
+        }
+    }
+}
+
+@media screen and (min-width:300px) and (max-width:991px) {
+    #fashionSaleBox {
+        min-height: 90vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        background-position: center;
+        .container {
+            width: 100%;
+            .writeBox {
+                width: 90%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                h3 {
+                    font-size: 30px;
+                }
+            }
+        }
+    } 
+    #cinsFashionBox {
+        height: auto;
+        .cinsFashionContainer {
+            display: flex;
+            flex-wrap: wrap;
+            width: 90%;
+            gap: 19.5px;
+            .imgBox {
+                width: 100%;
+            }
+            }
+        }
+    }
+    #trendingThisWeekBox {
+        width: 90%;
+        display: flex;
+        .trendingThisWeekcontainer {
+            height: 100%;
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            .writeBox {
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 10px;
+            }
+            .trendingThisWeekImgBox {
+                display: flex;
+                flex-wrap: wrap;
+                .fourImgContainer {
+                    width: 42.5%;
+                }
+            }
+        }
+   }
+   #customerTestimonialBox  {
+    .customerTestimonialContainer {
+        .testimonial-top-write {
+            width: 90%;
+            p {
+                width: 90%;
+                font-size: 15px;
+            }
+        }
+        .testimonial-founder {
+            .founder-text {
+                position: relative;
+                span {
+                    font-size: 26px;
+                    line-height: 39px;
+                    font-weight: 500;
+                }
+                p {
+                    line-height: 24px;
+                    font-size: 16px;
+                    position: absolute;
+                    bottom: 10px;
+                }
+            }
+        }
+    }
+   }
+   #youMayLikeBox {
+    .youMayLikeContainer {
+        .youMayLikeImgBox{
+            width: 90%;
+            .fourImgContainer {
+                width: 45%;
+            }
+        }
+    }
+   }
+   #latestNewsBox {
+    display: flex;
+    justify-content: center;
+    .latestNewsContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        width: 95%;
+        .cardContainer {
+            width: 100%;
+            .cardBox {
+                width: 100%;
+            }
+        }
+    }
+   }
+
+@media screen and (min-width: 575px) and (max-width: 767px) {
+    #cinsFashionBox {
+        min-height: 90vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        background-position: center;
+        .cinsFashionContainer {
+            width: 42.5%;
+            .imgBox {
+                width: 100%;
+            }
+        }
+    }
+}
